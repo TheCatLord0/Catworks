@@ -1,0 +1,32 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "create:copper_nugget"
+    },
+    {
+      "item": "create:copper_nugget"
+    },
+    {
+      "item": "create:copper_nugget"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 100,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:veridium"
+    },
+    {
+      "chance": 0.20,
+      "count": 3,
+      "id": "create:copper_nugget"
+    }
+  ]
+}
