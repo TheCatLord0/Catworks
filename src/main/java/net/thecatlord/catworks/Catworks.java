@@ -53,9 +53,6 @@ public class Catworks {
     private void commonSetup(FMLCommonSetupEvent event) {
         // Some common setup code
         LOGGER.info("HELLO FROM COMMON SETUP");
-
-        if (Config.ENABLE_BLAZE.getAsBoolean()) {
-        }
     }
 
     // Add the example block item to the building blocks tab

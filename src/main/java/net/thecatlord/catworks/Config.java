@@ -11,13 +11,6 @@ import net.neoforged.neoforge.common.ModConfigSpec;
 public class Config {
     private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
 
-    public static final ModConfigSpec.BooleanValue ENABLE_BLAZE = BUILDER
-            .comment("Should Blaze Burners have their own recipe?")
-            .define("blaze_burner", true);
-
-    public static boolean blazeEnabled() {
-        return ENABLE_BLAZE.get();
-    }
     static final ModConfigSpec SPEC = BUILDER.build();
 
     private static boolean validateItemName(final Object obj) {
