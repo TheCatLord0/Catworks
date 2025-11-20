@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "create:chute",
+    "create:smart_chute",
+    "minecraft:hopper",
+    "create:andesite_funnel",
+    "create:brass_funnel",
+    "create:andesite_tunnel",
+    "create:brass_tunnel"
+  ]
+}

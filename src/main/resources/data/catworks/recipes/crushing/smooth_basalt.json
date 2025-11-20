@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:smooth_basalt"
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      "chance": 0.20,
+      "item": "create:copper_nugget"
+    },
+    {
+      "chance": 0.10,
+      "item": "minecraft:amethyst_shard"
+    }
+  ]
+}

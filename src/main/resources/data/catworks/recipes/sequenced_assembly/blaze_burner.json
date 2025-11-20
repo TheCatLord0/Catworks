@@ -1,0 +1,57 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:empty_blaze_burner"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 90.0,
+      "item": "create:blaze_burner"
+    },
+    {
+      "chance": 10.0,
+      "item": "create:empty_blaze_burner"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:empty_blaze_burner"
+        },
+        {
+          "item": "create:blaze_burner"
+        }
+      ],
+      "keepHeldItem": true,
+      "results": [
+        {
+          "item": "create:empty_blaze_burner"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create:empty_blaze_burner"
+        },
+        {
+          "amount": 500,
+          "fluid": "minecraft:lava",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "create:empty_blaze_burner"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "create:empty_blaze_burner"
+  }
+}

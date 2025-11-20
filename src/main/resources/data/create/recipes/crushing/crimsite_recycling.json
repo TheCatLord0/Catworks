@@ -1,0 +1,14 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+	  "type": "forge:false"
+        }
+      ],
+      "recipe": {
+      }
+    }
+  ]
+}
