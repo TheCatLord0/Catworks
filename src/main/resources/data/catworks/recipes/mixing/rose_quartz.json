@@ -12,12 +12,15 @@
     },
     {
       "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
     }
   ],
   "results": [
     {
       "count": 1,
-      "item": "create:rose_quartz"
+      "item": "create:polished_rose_quartz"
     }
   ]
 }
