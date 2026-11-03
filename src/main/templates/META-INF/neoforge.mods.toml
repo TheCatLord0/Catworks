@@ -5,6 +5,8 @@ loaderVersion="${loader_version_range}" #mandatory
 
 license="${mod_license}"
 
+issueTrackerURL="https://github.com/TheCatLord0/Catworks/issues"
+
 [[mods]] #mandatory
 
 modId="${mod_id}" #mandatory
@@ -18,6 +20,8 @@ authors="TheCatLord0"
 description='''
 A very lightweight and simple addon for Create to add more things to automate.
 '''
+
+logoFile="catworks.png"
 
 #[[mixins]]
 #config="${mod_id}.mixins.json"
@@ -38,3 +42,11 @@ A very lightweight and simple addon for Create to add more things to automate.
     versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="create"
+type="required"
+versionRange="[6.0.10,)"
+ordering="AFTER"
+side="BOTH"
+

@@ -1,0 +1,19 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "minecraft:slime_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:pearlescent_froglight",
+      "count": 4
+    },
+    {
+      "id": "minecraft:pearlescent_froglight",
+      "count": 4,
+      "chance": 0.5
+    }
+  ]
+}

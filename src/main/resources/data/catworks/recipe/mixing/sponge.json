@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:dried_kelp_block"
+    },
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 100,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "count": 4,
+      "id": "minecraft:sponge"
+    }
+  ]
+}
